@@ -1,4 +1,5 @@
 import sqlite3
+""" My implementation of a simpler version of Google's "Page Rank" algorithm to rank the pages retreived by our web crawler """
 
 conn = sqlite3.connect('spider.sqlite')
 cur = conn.cursor()
